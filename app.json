@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-samachar-app",
-    "slug": "expo-samachar-app",
+    "name": "Samachar App",
+    "slug": "samachar-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5415f405-ddc2-4cb3-9d4a-90163f908e2f"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5415f405-ddc2-4cb3-9d4a-90163f908e2f"
     }
   }
 }
